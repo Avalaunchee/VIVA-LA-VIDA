@@ -315,7 +315,7 @@ async function sendMessage() {
         outputDiv.innerHTML += `<p>Chatbot: Here is your meal plan - ${mealPlan}</p>`;
     } catch (error) {
         console.error("Error fetching meal plan:", error);
-        outputDiv.innerHTML += "<p>Chatbot: Oops! Something went wrong. Please try again.</p>";
+        outputDiv.innerHTML += "<p>Chatbot: Oops! Something went wrong. Please try again!</p>";
     } finally {
         // Enable the button after the API request completes (whether successful or not)
         sendButton.disabled = false;
